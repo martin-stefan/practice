@@ -20,7 +20,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ebe8e8;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .header__title {
@@ -53,9 +53,20 @@ body, html {
 }
 
 .main__content {
-  background-color:#efd0caff;
   margin: 5rem;
   height: 70%;
+  display: flex;
+  width: 90vh;
+}
+
+.main__info {
+  background-color:#979b8dff;
+  width: 75%;
+}
+
+.main__testimonials {
+  background-color: #C1BCAC;
+  width: 25%;
 }
 
 .footer {
