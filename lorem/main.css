@@ -1,0 +1,66 @@
+/* CSS HEX */
+/* --pale-pink: #efd0caff;
+--pale-silver: #c1bcacff;
+--artichoke: #979b8dff;
+--fern-green: #5c7457ff; */
+
+html {
+  font-size: 62.5%;
+}
+
+body, html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #979B8D;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebe8e8;
+}
+
+.header__title {
+  font-size: 4rem;
+  margin: 0;
+  margin-left: 3rem;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.7rem;
+}
+
+.nav__item {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color:#000;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  display: flex;
+}
+
+.main__content {
+  background-color:#efd0caff;
+  margin: 5rem;
+  height: 70%;
+}
+
+.footer {
+  background-color:#5c7457ff;
+  width: 100%;
+  height: 18rem;
+
+}
