@@ -12,7 +12,8 @@ body, html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #454645;
+  color: #333333;
+  background-color: #fcf6f1;
 }
 
 .header {
@@ -57,6 +58,7 @@ body, html {
   height: 70%;
   display: flex;
   width: 90vh;
+  box-shadow: 0 0 1rem #979b8dff;
 }
 
 .main__info {
