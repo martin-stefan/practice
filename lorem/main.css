@@ -68,8 +68,13 @@ body, html {
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+.main__info--row {
+  margin: 4rem 2rem;
+  font-size: 1.8rem;
 }
 
 .main__author {
@@ -85,14 +90,9 @@ body, html {
 
 .main__author--info {
   padding: 0 2rem;
-  /* position: absolute; */
   bottom: 20%;
 }
 
-.author__name {
-  /* position: absolute; */
-
-}
 
 .img {
   height: 140px;
