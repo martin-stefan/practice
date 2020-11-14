@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  background-image: linear-gradient(to top, transparent, rgba(0 , 0, 0, .3));
+}
+
+.header__title {
+  color: white;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+
+.nav {
+  display: flex;
+  
+}
+
+.nav__item {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  margin: 0 2rem;
+}
+
+.hero {
+  height: 100vh;
+  max-width: 100%;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero__welcome {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.hero__text {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.hero__btn {
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: white;
+}
+
+.hero__btn:hover {
+  cursor: pointer;
+}
