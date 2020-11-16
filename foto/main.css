@@ -1,3 +1,9 @@
+/* --dark-sienna: #3c1518ff;
+--blood-red: #69140eff;
+--rust: #a44200ff;
+--bronze: #d58936ff;
+--pale-spring-bud: #f2f3aeff; */
+
 html {
   font-size: 62.5%;
 }
@@ -6,6 +12,7 @@ html, body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Crimson Text', serif;
 }
 
 .header {
@@ -23,6 +30,7 @@ html, body {
   color: white;
   font-size: 3rem;
   margin-left: 3rem;
+  font-family: 'Lobster', cursive;
 }
 
 .nav {
@@ -53,11 +61,16 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero__welcome {
-  font-size: 10rem;
+  font-size: 15rem;
   margin: 0;
+  font-family: 'Lobster', cursive;
 }
 
 .hero__text {
