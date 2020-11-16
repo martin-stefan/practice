@@ -13,6 +13,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: 'Crimson Text', serif;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -48,7 +49,7 @@ html, body {
 .hero {
   height: 100vh;
   max-width: 100%;
-  background-image: url(bg.jpg);
+  background-image: linear-gradient(to top left, transparent, rgba(105, 20, 14, 0.178)), url(bg.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -74,18 +75,25 @@ html, body {
 }
 
 .hero__text {
-  font-size: 2rem;
-  margin: 0;
+  font-size: 3rem;
+  margin: -1rem 0 0 0;
 }
 
 .hero__btn {
   outline: none;
   border: none;
-  padding: 1rem 2rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 0;
   background-color: transparent;
   color: white;
+  border-bottom: solid 1px white; 
 }
 
 .hero__btn:hover {
   cursor: pointer;
+}
+
+.about {
+  height: 100vh;
 }
