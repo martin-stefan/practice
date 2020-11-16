@@ -80,11 +80,11 @@ html, body {
 }
 
 .hero__btn {
-  outline: none;
-  border: none;
+  text-decoration: none;
   font-size: 2rem;
   margin-top: 2rem;
   padding: 0;
+
   background-color: transparent;
   color: white;
   border-bottom: solid 1px white; 
