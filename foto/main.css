@@ -128,13 +128,13 @@ html, body {
 
 
 #card1 {
-  background-image: url('land1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url('land1.jpg');
   background-size: contain;
 
 }
 
 #card2 {
-  background-image: url('land2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)),url('land2.jpg');
   background-size: contain;
 }
 .person__card:hover {
@@ -146,6 +146,7 @@ html, body {
   filter: blur(0);
   animation-name: fromBottom;
   animation-duration: .4s;
+  animation-fill-mode: forwards;
 }
 
 .person__img {
