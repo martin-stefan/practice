@@ -115,9 +115,8 @@ html, body {
 }
 
 .person__card {
-  height: 70rem;
-  width: 50rem;
-  /* background-color: black; */
+  height: 69rem;
+  width: 46rem;
   color: white;
   border-radius: 5px;
   transition: all .2s ease-in;
@@ -130,10 +129,13 @@ html, body {
 
 #card1 {
   background-image: url('land1.jpg');
+  background-size: contain;
+
 }
 
 #card2 {
   background-image: url('land2.jpg');
+  background-size: contain;
 }
 .person__card:hover {
   filter: blur(5px);
