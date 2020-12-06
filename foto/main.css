@@ -14,6 +14,8 @@ html, body {
   margin: 0;
   font-family: 'Crimson Text', serif;
   scroll-behavior: smooth;
+  background-color: #121212;
+  color: white;
 }
 
 .header {
@@ -100,10 +102,12 @@ html, body {
   height: 100vh;
   width: 100vw;
   text-align: center;
+
 }
 
 .about__title {
   font-size: 7rem;
+  margin: 0;
 }
 
 .person {
@@ -124,19 +128,20 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  border: 1px solid rgba(173, 173, 173, 0.637);
+  box-shadow: .3rem .3rem 2rem rgba(221, 221, 221, 0.63);
 }
-
 
 #card1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url('land1.jpg');
   background-size: contain;
-
 }
 
 #card2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)),url('land2.jpg');
   background-size: contain;
 }
+
 .person__card:hover {
   filter: blur(5px);
 }
@@ -154,7 +159,7 @@ html, body {
   border-radius: 50%;
   margin-top: 4rem;
   flex: none;
-  
+  border: 1px solid rgb(173, 173, 173);
 }
 
 .person__name {
