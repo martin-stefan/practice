@@ -13,16 +13,26 @@ html {
   height: 50px;
   width: 100%;
   display: flex;
-  
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.7rem;
+  box-shadow: 0 0 1rem rgb(156, 155, 155);
 }
 
+.nav__item {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 .container {
-  height: 80vh;
+  height:100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  /* background-color: gray; */
 
 }
 
@@ -30,6 +40,5 @@ html {
   height: 500px;
   width: 500px;
   background-color: gray;
-
   box-shadow: -3px -3px 7px rgb(151, 151, 151), 3px 3px 7px rgb(68, 67, 67), inset -7px -7px 7px rgb(151, 151, 151), inset 7px 7px 7px rgb(102, 101, 101);
 }
